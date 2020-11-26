@@ -12,6 +12,7 @@ body{
     display: flex;
     width: 100%;
     flex-direction: column;
+    overflow-x: hidden;
 }
 
 /* header styles */
@@ -78,4 +79,9 @@ header{
 .cart{
     font-size: 2rem;
     cursor: pointer;
+    background: rgb(228, 214, 214);
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    padding: 12px;
 }
