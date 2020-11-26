@@ -2,6 +2,9 @@ const express = require('express');
 const ejs = require('ejs');
 const session = require('express-session');
 const bodyParser = require('body-parser');
+const path = require('path');
+
+const ejsLint = require('ejs-lint');
 
 
 // initialize eprexx app
@@ -17,6 +20,12 @@ app.set('view engine', 'ejs');
 
 // adding static files
 app.use(express.static(__dirname + '/public'));
+app.set('views', path.join(__dirname, 'views/pages')); 
+
+// routes
+app.get('/', (req, res) =>{
+    res.render('index');
+})
 
 // port
 const PORT = process.env.PORT || 5000;
