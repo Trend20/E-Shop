@@ -100,7 +100,6 @@ header{
 }
 /* end of image coursel */
 
-
 /* navigations */
 
 .container-fluid{
@@ -210,3 +209,24 @@ header{
 #brands h3{
     color: #fff;
 }
+
+/* footer */
+#footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#resources{
+    display: flex;
+    flex-direction: column;
+}
+
+#resources ul, 
+#resource ul li{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+/* end footer */
