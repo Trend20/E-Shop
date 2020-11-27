@@ -198,3 +198,10 @@ header{
     display: flex;
     padding: 10px;
 }
+
+#brands{
+    margin-top: 50px;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
