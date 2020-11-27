@@ -216,6 +216,8 @@ header{
     width: 100%;
     justify-content: space-between;
     padding: 20px;
+    background: rgb(6, 35, 54);
+    color: #fff;
 }
 
 #resources{
@@ -229,4 +231,61 @@ header{
     flex-direction: column;
     list-style: none;
 }
+
+#social{
+    display: flex;
+    flex-direction: column;
+}
+
+#facebook, #twitter, #instagram{
+    display: flex;
+    align-items: center;
+}
+
+#facebook i, 
+#twitter i, 
+#instagram i{
+  margin-right: 10px;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+
+#facebook p, 
+#twitter p, 
+#instagram p{
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+#most-popular, 
+#most-popular  li{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+
+#newsletter{
+    display: flex;
+    flex-direction: column;
+}
+
+#email-input{
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+
+#footer-form >button{
+    width: 30%;
+    margin-top: 20px;
+    padding: 10px;
+    outline: none;
+    cursor: pointer;
+    color: #fff;
+    background: #df6969;
+    border: none;
+}
+
 /* end footer */
