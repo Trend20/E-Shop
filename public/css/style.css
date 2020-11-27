@@ -22,7 +22,7 @@ header{
     width: 100%;
     align-items: center;
     padding: 20px;
-    background: rgb(36, 29, 29);
+    background: rgb(6, 35, 54);
     color: #fff;
 }
 
@@ -84,4 +84,117 @@ header{
     align-items: center;
     display: flex;
     padding: 12px;
+}
+
+/* image couresel */
+
+#carousel-Controls{
+    display: flex;
+    width: 100%;
+    margin: 50px 10px;
+}
+
+.d-block{
+    height: 70vh;
+    max-width: 100%;
+}
+/* end of image coursel */
+
+
+/* navigations */
+
+.container-fluid{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    background: rgb(6, 35, 54);
+}
+
+.navigation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.navigation ul{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation ul li{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+
+.navigation ul li a{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* end of navigations */
+
+.category{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0px;
+    width: 90%;
+    margin: 30px 20px;
+}
+
+.col{
+    display: flex;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.best-sellers{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+
+.price{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.price >p{
+    margin-top: 20px;
+}
+
+.price >i{
+    background: rgb(230, 224, 224);
+    border-radius: 50%;
+    display: flex;
+    padding: 10px;
 }
