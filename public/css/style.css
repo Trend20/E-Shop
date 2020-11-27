@@ -204,4 +204,9 @@ header{
     display: flex;
     width: 100%;
     flex-direction: column;
+    background: rgb(6, 35, 54);
+}
+
+#brands h3{
+    color: #fff;
 }
