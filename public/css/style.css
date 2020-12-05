@@ -179,16 +179,27 @@ header{
     margin-top: 50px;
 }
 
+.card-body{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
 
 .price{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+    width: 100%;
 }
 
 .price >p{
     margin-top: 20px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-left: 1px;
 }
 
 .price >i{
