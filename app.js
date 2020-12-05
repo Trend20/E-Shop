@@ -23,9 +23,27 @@ app.use(express.static(__dirname + '/public'));
 app.set('views', path.join(__dirname, 'views/pages')); 
 
 // routes
+
+// home
 app.get('/', (req, res) =>{
     res.render('index');
 })
+
+// about route
+app.get('/about', (req, res) =>{
+    res.render('about');
+});
+
+// category route
+app.get('/category', (req, res) =>{
+    res.render('category');
+});
+
+// contact-us route
+app.get('/contact', (req, res) =>{
+    res.render('contact');
+});
+
 
 // port
 const PORT = process.env.PORT || 5000;
