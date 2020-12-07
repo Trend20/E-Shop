@@ -40,7 +40,7 @@ app.get('/category', (req, res) =>{
 });
 
 // contact-us route
-app.get('/contact', (req, res) =>{
+app.get('/contact-us', (req, res) =>{
     res.render('contact');
 });
 
