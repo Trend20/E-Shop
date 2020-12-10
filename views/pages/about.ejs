@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Luku-Shorts</title>
+        <title>Kurt Collection</title>
     
         <!-- Google Font -->
         <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -18,16 +18,135 @@
           crossorigin="anonymous">
     
           <!-- Custom CSS -->
+          <link rel="stylesheet" href="/css/style.css">
           <link rel="stylesheet" href="/css/about.css">
     </head>
 <body>
-    <div class="container">
-        <div class="head">
-            <h3>About Us</h3>
+    
+    <div class="wrapper">
+        <header>
+            <div class="contact">
+                <i class="fas fa-phone"></i>
+                <p>+254713642280</p>
+            </div>
+            <div class="descripton">
+                <p>Home of Quality Brands!!</p>
+            </div>
+    
+            <div class="authentications">
+                <i class="fas fa-user-circle"></i>
+                <a href="#">account/register</a>
+            </div>
+        </header>
+    
+        <div class="search mt-5">
+            <form action="" id="form">
+                <input type="text" placeholder="Search Item...">
+                <i class="fas fa-search"></i>
+            </form>
+    
+            <div class="cart">
+                <i class="fas fa-shopping-cart"></i>
+            </div>
         </div>
-        <div class="about">
-            <p>We are the home of your favorte collections.</p>
+    
+        <div class="container-fluid">
+          <nav class="navigation">
+            <ul>
+              <li>
+                <a href="/">Home</a>
+              </li>
+    
+              <li>
+                <a href="/about">About Us</a>
+              </li>
+    
+              <li>
+                <a href="/category">Category</a>
+              </li>
+    
+              <li>
+                <a href="/contact-us">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
         </div>
-    </div>
+
+        <div id="about-us">
+            <div class="about-heading">
+                <h3>Our Story</h3>
+            </div>
+            <div class="about-content">
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Quos aperiam, molestias maiores eveniet ullam aut odio atque?
+                     Quibusdam eius porro accusantium 
+                    repellendus non mollitia nobis cupiditate atque, consectetur excepturi magni.
+                </p>
+            </div>
+        </div>
+        <!-- footer -->
+    
+        <footer id="footer" >
+          <div id="resources">
+            <h3>Resources</h3>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Suggestions</a></li>
+              <li><a href="#">Shipping Policy</a></li>
+              <li><a href="#">Return Policy</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div id="social">
+            <h3>Social</h3>
+            <div id="facebook">
+              <i class="fab fa-facebook-square"></i>
+              <p>Facebook</p>
+            </div>
+            <div id="twitter">
+              <i class="fab fa-twitter-square"></i>
+              <p>Twitter</p>
+            </div>
+            <div id="instagram">
+              <i class="fab fa-instagram-square"></i>
+              <p>Instagram</p>
+            </div>
+          </div>
+          <div id="most-popular">
+            <h3>Most Popular</h3>
+            <li><a href="#">Companion Animal Products</a></li>
+            <li><a href="#">New Products</a></li>
+            <li><a href="#">SALE Products</a></li>
+            <li><a href="#">Cheese Alternatives</a></li>
+            <li><a href="#">Meat Alternatives</a></li>
+            <li><a href="#">Candy & Sweets</a></li>
+            <li><a href="#">Gift Certificates</a></li>
+            <li><a href="#">Personal Care</a></li>
+          </div>
+          <div id="newsletter">
+            <h3>Newsletter</h3>
+            <p>Join Our Good News Mailing List</p>
+            <form action="" id="footer-form">
+             <div id="email">
+               <label for="email">Email Address</label>
+               <input type="email" id="email-input">
+             </div>
+             <button type="submit">Subscribe</button>
+            </form>
+          </div>
+        </footer>
+        <!-- end of footer -->
+       </div>
+    
+       <!-- BOOTSTRAP JS CDN -->
+       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"  crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"  crossorigin="anonymous"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"  crossorigin="anonymous"></script>
+    
+       <!-- CUSTOM JS -->
+       <script src="/js/main.js"></script>
 </body>
 </html>

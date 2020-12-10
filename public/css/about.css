@@ -1,0 +1,33 @@
+#about-us{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.about-heading{
+    display: flex;
+}
+
+.about-heading h3{
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.about-content{
+    display: flex;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.about-content p{
+    display: flex;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}

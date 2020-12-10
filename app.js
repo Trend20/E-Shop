@@ -20,7 +20,11 @@ app.set('view engine', 'ejs');
 
 // adding static files
 app.use(express.static(__dirname + '/public'));
-app.set('views', path.join(__dirname, 'views/pages')); 
+app.set('views', path.join(__dirname, 'views/pages'));
+// app.set('views', path.join(__dirname, 'views'));
+
+// setting the view engine
+app.set('view engine', 'ejs');
 
 // routes
 
